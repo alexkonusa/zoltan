@@ -1,0 +1,162 @@
+/* ~~~~~~~~~ layout ~~~~~~~~~~ */
+
+#container {
+	width: 840px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 30px;
+	overflow: hidden;
+}
+/* ~~~~~~~~~ Logo/contact us ~~~~~~~~~~ */
+#main-header {
+	width: 900px;
+	overflow: hidden;
+	margin: auto;
+	background-color: #fff;
+
+}
+IMG.main_logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* ~~~~~~~~~ header ~~~~~~~~~~ */
+#menu {
+	width: 900px;
+	overflow: hidden;
+	list-style:none;
+	margin: auto;
+	text-align: center;
+}
+#main-navigation {
+	display: block;
+}
+#main-navigation ul {
+    font-size: 15px;
+}
+#main-navigation li {
+	display: inline;
+}
+#main-navigation li a {
+    padding: 3px 6px;  
+    color: #575c7d;  
+    text-decoration: none;  
+    font-weight: bold; 
+}
+
+#main-navigation li a:hover {
+	background: #99cccc;  
+    color: #485e0f;  
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    padding: 3px 6px;   
+    text-decoration: none;  	
+}
+/* ~~~~~~~~~ Header Images ~~~~~~~~~~ */
+
+#header_images1 {
+	width: 900px;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+}
+IMG.header_images {
+	overflow: hidden;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+			
+/* ~~~~~~~~~ article ~~~~~~~~~~ */
+
+article {
+	width: 100%;
+	overflow: hidden;
+}
+section {
+	float: left;
+	width: 500px;
+}
+
+/* ~~~~~~~~~ aside social ~~~~~~~~~~ */
+
+#aside_social {
+	float: right;
+	width: 120px;
+}
+IMG.social {
+	margin: 2px;
+}
+
+/* ~~~~~~~~~ aside ~~~~~~~~~~ */
+
+aside {
+	float: right;
+	width: 310px;
+}
+			
+/* ~~~~~~~~~ footer ~~~~~~~~~~ */
+			
+footer {
+	width: 840px;
+	margin: 20px auto;
+	font-size: 1.4em;
+	text-align: right;
+}
+/* ~~~~~~~~~ common ~~~~~~~~~~ */
+
+body, select, input, textarea {
+	font: 0.625em/1.4 tahoma, verdana, arial, helvetica, sans-serif;
+	color: #333;
+}
+body {
+	 background: #aecfd4;
+}
+h1 {
+	font-weight: normal;
+	color: #666;
+	font: 3.2em/1.4 georgia, 'times new roman', times, serif;
+	margin: 0.2em 0 0;
+}
+h2 {
+	font-weight: normal;
+	color: #666;
+	font: 2.4em/1.4 georgia, 'times new roman', times, serif;
+	margin: 0.2em 0;	
+}
+iframe {
+	margin: 10px;
+}
+section p, section ul, section ol,
+aside p, aside ul, aside ol {
+	font-size: 1.4em;
+	margin: 1em 0;
+}
+section ul {
+	margin-left: 1em;
+}
+section ol {
+	margin-left: 1.4em;
+}
+/* ~~~~~~~~~ generic ~~~~~~~~~~ */
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset, {
+	margin: 0;
+	padding: 0;
+}
+img {
+	vertical-align: bottom;
+}
+img, fieldset {
+	border: 0;
+	border: 0;
+}
+html {
+	overflow-y: scroll;
+}
+header, nav, section, article, figure, aside, footer,{
+	display: block;	
+}
